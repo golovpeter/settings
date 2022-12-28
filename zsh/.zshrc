@@ -74,7 +74,8 @@ ZSH_THEME="af-magic"
 plugins=(
   git 
   docker 
-  zsh-autosuggestions
+  zsh-autosuggestions  
+  zsh-syntax-highlighting
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -104,5 +105,3 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-
-source /home/golovpetr/.local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
