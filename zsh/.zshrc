@@ -1,11 +1,15 @@
 ZSH_DISABLE_COMPFIX=true
 
+export POSTGRESQL_URL="postgres://postgres:228048@localhost:5432/postgres?sslmode=disable"
+export PORT=":8080"
+export JWT_KEY="VHTFsNM1Am"
+
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
-export PATH=/usr/local/Cellar/node/14.11.0/bin:$PATH
+export PATH=/usr/local/Cellar/node/14.11.0/bin:/usr/local/go/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH="/home/golovpetr/.oh-my-zsh"
+export ZSH="/home/golovpeter/.oh-my-zsh"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -105,3 +109,5 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+alias blth="bash $HOME/Scripts/run_bluethooth.sh"
+alias dcp="docker container prune"
