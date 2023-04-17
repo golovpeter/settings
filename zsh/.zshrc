@@ -1,9 +1,5 @@
 ZSH_DISABLE_COMPFIX=true
 
-export POSTGRESQL_URL="postgres://postgres:228048@localhost:5432/postgres?sslmode=disable"
-export PORT=":8080"
-export JWT_KEY="VHTFsNM1Am"
-
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 export PATH=/usr/local/Cellar/node/14.11.0/bin:/usr/local/go/bin:$PATH
