@@ -5,7 +5,7 @@ ZSH_DISABLE_COMPFIX=true
 export PATH=/usr/local/Cellar/node/14.11.0/bin:/usr/local/go/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH="/home/golovpeter/.oh-my-zsh"
+export ZSH="/home/pagolov/.oh-my-zsh"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
